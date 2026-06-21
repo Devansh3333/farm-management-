@@ -1,0 +1,55 @@
+/* Yields Styling */
+.yields-container {
+  background-color: #f8f9fa;
+}
+
+.yields-table {
+  margin-bottom: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.yields-table thead {
+  background: linear-gradient(90deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+}
+
+.yields-table thead th {
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.yields-table tbody tr {
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.2s ease;
+}
+
+.yields-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.yields-table tbody td {
+  padding: 1rem;
+  vertical-align: middle;
+  color: #495057;
+}
+
+.quantity-col {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.data-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  background: white;
+  margin-top: 2rem;
+}
+
+.data-card .card-body {
+  padding: 2rem;
+}

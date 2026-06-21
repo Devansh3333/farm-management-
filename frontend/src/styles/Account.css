@@ -1,0 +1,77 @@
+/* Account Page Styling */
+.account-page-container {
+  padding-bottom: 40px;
+}
+
+.account-card {
+  border-radius: 28px;
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+  border: none;
+}
+
+.account-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.account-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.12);
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.account-card h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 0.8rem;
+}
+
+.account-intro {
+  color: #475569;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.account-button {
+  background: #2563eb;
+  border: none;
+  padding: 0.85rem 1.4rem;
+  border-radius: 16px;
+}
+
+.account-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .account-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.account-panel {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 22px;
+  border: 1px solid #e2e8f0;
+}
+
+.account-panel h5 {
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.account-panel p {
+  margin: 0.6rem 0;
+  color: #475569;
+  line-height: 1.7;
+}

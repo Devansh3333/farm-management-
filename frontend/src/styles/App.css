@@ -1,0 +1,107 @@
+/* App Styling */
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(135deg, #0f2f4f 0%, #264a6f 36%, #2e4c78 100%);
+}
+
+.main-content {
+  margin-left: 255px;
+  flex: 1;
+  min-height: 100vh;
+  padding: 36px 40px 60px;
+}
+
+@media (max-width: 992px) {
+  .main-content {
+    margin-left: 0;
+    padding: 24px;
+  }
+}
+
+.page-title {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.form-card,
+.data-card,
+.stats-card {
+  background: #ffffff;
+}
+
+.form-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.form-card h5 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.form-card .form-control,
+.form-card .form-select {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.form-card .form-control:focus,
+.form-card .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.form-card .form-label {
+  color: #495057;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.data-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  background: white;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.stats-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.stats-label {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mango-farm-management-system",
+  "version": "1.0.0",
+  "description": "Comprehensive Mango Farm Management System with Sales, Yield, Mandi Prices, and Weather Forecasting",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install-all": "npm install && npm install --workspace=backend && npm install --workspace=frontend",
+    "start": "npm run start --workspace=backend & npm run start --workspace=frontend",
+    "start:backend": "npm run dev --workspace=backend",
+    "start:frontend": "npm start --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "test": "npm test --workspace=backend"
+  },
+  "keywords": [
+    "mango",
+    "farm",
+    "management",
+    "agriculture",
+    "sales",
+    "yield",
+    "weather",
+    "mandi-prices"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
+
